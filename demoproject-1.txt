@@ -10,8 +10,7 @@ Step-3 :
   --> Go to CloudFfront.
   --> Create CloudFront Distribution.
   -> Choose the Origin Domain Name - As the project is hosting website from S3, select S3 origin.
-  -> Origin Access - to Access only with CloudFront
-  -> Bucket policy - Better to update by aws itself
+  -> Origin Access - Origin acccess control settings - bucket can restrict access to only CloudFront
   -> Protocol Policy - redirect HTTP to HTTPs
   -> Create Distribution.
 Step-4 :
