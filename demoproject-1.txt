@@ -1,4 +1,4 @@
---- AWS S3 Static Website Hosting with AWS CloudFront ---
+>>>>>> AWS S3 Static Website Hosting with AWS CloudFront <<<<<<
 Step-1 : 
   --> Create a Bucket without any permissions, keep all the settings as default.
   -> Bucket Name : Bucket name must be Unique.Pnly lower case, numbers and hypens are used.
