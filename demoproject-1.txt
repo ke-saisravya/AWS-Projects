@@ -1,0 +1,18 @@
+--- AWS S3 Static Website Hosting with AWS CloudFront ---
+Step-1 : 
+  --> Create a Bucket without any permissions, keep all the settings as default.
+  -> Bucket Name : Bucket name must be Unique.Pnly lower case, numbers and hypens are used.
+  --> Select AWS Region.
+  --> Create Bucket.
+Step-2 :
+  --> Open the Bucket and Upload the required files.
+Step-3 :
+  --> Go to CloudFfront.
+  --> Create CloudFront Distribution.
+  -> Choose the Origin Domain Name - As the project is hosting website from S3, select S3 origin.
+  -> Origin Access - to Access only with CloudFront
+  -> Bucket policy - Better to update by aws itself
+  -> Protocol Policy - redirect HTTP to HTTPs
+  -> Create Distribution.
+Step-4 :
+  --> Search URL is the Domain Name of the Distribution.
